@@ -61,6 +61,7 @@ class ViewController: UIViewController {
         buttonTwo.setTitle("Sou um recrutador", for: .normal)
         buttonTwo.backgroundColor = .white
         buttonTwo.setTitleColor(.purple, for: .normal)
+        buttonTwo.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         buttonTwo.layer.cornerRadius = 8
         return buttonTwo
     }()
