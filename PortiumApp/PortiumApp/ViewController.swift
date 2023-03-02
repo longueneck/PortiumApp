@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         mask.backgroundColor = .purple
         mask.contentMode = .scaleAspectFit
         mask.alpha = 0.3
-        
         return mask
     }()
     
